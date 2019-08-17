@@ -1,0 +1,23 @@
+.blogs {
+    background-color: white;
+    color: black;
+}
+
+.blogs__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.blogs__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs__blog-section {
+    padding-left: 50px;
+}
+
+.blogs__picture-article .blogs__blog-section {
+    margin-top: 25px;
+}

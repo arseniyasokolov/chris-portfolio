@@ -1,0 +1,54 @@
+.skills {
+    background-color: white;
+    color: black;
+}
+
+.skills__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.skills__image {
+    display: block;
+    width: 270px;
+    height: 140px;
+    bottom: 0px;
+}
+
+.skills__item {
+    margin-right: 30px;
+}
+
+.skills__item_last-item {
+    margin-right: 0px;
+}
+
+.skills__inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    margin-top: 95px;
+}
+
+.skills__item figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills__caption {
+    text-align: center;
+    font-size: 22px;
+    line-height: 100%;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.skills__image-background {
+    width: 270px;
+    height: auto;
+    background-color: #f6f3ff;
+    display: block;
+    position: relative;
+}

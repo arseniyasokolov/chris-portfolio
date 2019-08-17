@@ -1,0 +1,35 @@
+.portfolio {
+    background-color: white;
+    color: black;
+}
+
+.portfolio__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.portfolio__item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    height: 280px;
+    margin: 0px 20px 20px 0;
+}
+
+.portfolio__banner {
+    position: absolute;
+}
+
+.portfolio__inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.portfolio__puzzle {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 390px;
+}

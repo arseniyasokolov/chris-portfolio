@@ -1,0 +1,13 @@
+.brands {
+    background-color: white;
+    color: black;
+}
+
+.brands__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    height: 155px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials__btn {
+    color: white;
+    text-decoration: none;
+}

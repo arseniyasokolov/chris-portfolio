@@ -1,0 +1,53 @@
+.footer {
+    background-color: #222222;
+    color: white;
+}
+
+.footer__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 250px;
+}
+
+.footer__contact-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.footer__copywrite {
+    display: block;
+    color: #e8e4f1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.footer__contact-type {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    opacity: 0.4;
+    color: white;
+}
+
+.footer__contact-way {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer__email {
+    width: 270px;
+}
+
+.footer__phone {
+    width: 270px;
+}
+
+.footer__adress {
+    width: 270px;
+}

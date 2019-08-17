@@ -1,0 +1,76 @@
+.testimonials {
+    background-color: #41228e;
+    color: black;
+}
+
+.testimonials__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.testimonials__headline {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 110px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.testimonials__description {
+    color: white;
+    font-size: 22px;
+    line-height: 36px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.testimonials__item {
+    position: relative;
+    text-align: center;
+}
+
+.testimonials__description::before {
+    content: '';
+    display: block;
+    background-image: url("../img/Quote.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 55x;
+    height: 55px;
+    margin-bottom: 30px;
+}
+
+.testimonials__funder-name {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 22px;
+}
+
+.testimonails__funder-status {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 18px;
+    opacity: 0.4;
+}
+
+.testimonials__item::after {
+    content: '';
+    background: url('../img/slide-testimonials.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 70px;
+    height: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}

@@ -1,0 +1,97 @@
+.contact-info {
+    background-image: url('../img/Bg_Dots.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    color: black;
+}
+
+.contact-info__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.contact-info__headline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-info__inner {
+    width: 630px;
+    height: 410px;
+    display: block;
+    margin-left: 200px;
+    padding: 50px 70px 40px 70px;
+    position: relative;
+    top: 190px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contact-info__control {
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    outline: none;
+    width: 100%;
+    height: 20px;
+}
+
+.contact-info__name {
+    display: inline-block;
+    margin-right: 90px;
+    width: 260px;
+}
+
+.contact-info__email {
+    display: inline-block;
+    width: 260px;
+}
+
+.contact-info__message {
+    display: block;
+    margin-top: 55px;
+}
+
+.contact-info__message .contact-info__control {
+    height: 95px;
+}
+
+.contact-info__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.contact-info__headline-form {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400px;
+    margin: 0;
+    margin-bottom: 80px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.contact-info__button {
+    background-color: #41228e;
+    border: none;
+    border-radius: 10px;
+    width: 355px;
+    height: 55px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    display: block;
+    margin: 40px auto 0 auto;
+    cursor: pointer;
+}

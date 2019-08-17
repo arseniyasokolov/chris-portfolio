@@ -1,0 +1,56 @@
+.experience {
+    background-color: white;
+    color: black;
+}
+
+.experience__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.experience__inner {
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+
+.experience__caption p {
+    padding: 0px;
+    margin-top: 0px;
+    line-height: 100%;
+}
+
+.experience__dates {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.experience__title {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+.experience__firm-name {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    opacity: 0.4;
+    margin-bottom: 0;
+}
+
+.experience__item figure {
+    padding: 0px;
+    margin: 0px;
+}
+
+.experience__image {
+    display: block;
+    margin: 0 auto 15px auto;
+}

@@ -1,0 +1,26 @@
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.main-nav__link {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.main-nav__link:last-child {
+    margin-right: 0;
+}
+
+.main-nav__link>a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.main-nav__link_active {
+    font-weight: bold;
+}

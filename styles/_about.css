@@ -1,0 +1,33 @@
+.about {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    color: white;
+}
+
+.about__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.about__article {
+    color: black;
+    font-size: 22px;
+    line-height: 36px;
+    display: block;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.about__caption {
+    display: block;
+    color: black;
+    font-size: 18px;
+    line-height: 100%;
+    color: #41228e;
+    margin-top: 42px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    text-decoration: none;
+}

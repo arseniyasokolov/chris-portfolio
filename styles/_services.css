@@ -1,0 +1,68 @@
+.services {
+    background-color: white;
+    color: black;
+}
+
+.services__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.services__inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 410px;
+}
+
+.services__item {
+    width: 370px;
+    height: 100%;
+}
+
+.services__service-name {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+}
+
+.services__service-description {
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.7;
+    width: 260px;
+    margin: 23px auto 0 auto;
+    text-align: center;
+    line-height: 28px;
+}
+
+.services__item_accent {
+    background-color: #41228e;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.services__service-name::before {
+    content: '';
+    display: block;
+    background-color: white;
+    background-image: url('../img/ellipse.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+.services__item_accent .services__service-name::before {
+    background-image: url('../img/camera.png');
+    margin-right: 70px;
+    background-color: transparent;
+}
