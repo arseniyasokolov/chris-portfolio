@@ -1,4 +1,6 @@
-.page {}
+.page {
+    margin: 0;
+}
 
 .page__header {
     height: 100%;
